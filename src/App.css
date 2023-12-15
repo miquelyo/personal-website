@@ -1,0 +1,24 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.App {
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.App.loaded {
+  opacity: 1;
+}
+
+.content {
+  margin-top: 50px;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.content.loaded {
+  opacity: 1;
+}
